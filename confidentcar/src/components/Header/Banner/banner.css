@@ -1,0 +1,85 @@
+.banner {
+  background-image: url(../../../images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 585px;
+  background-size: cover;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mymove {
+  from {
+    background-color: rgb(255, 38, 0);
+  }
+  to {
+    background-color: rgba(45, 6, 218, 0.658);
+  }
+}
+h1 {
+  color: rgb(255, 38, 0);
+  font-family: fantasy;
+  font-size: 80px !important;
+  text-shadow: 2px 5px rgb(37, 37, 172);
+ position: absolute;
+ margin-left: 170px;
+}
+
+.containerTxtWelcom {
+  padding-top: 100px;
+ 
+}
+.containerAnimations {
+  display: inline-block;
+  width: 800px;
+  height: 200px;
+  margin-top: 250px;
+}
+
+.animation {
+  width: 70px;
+  height: 150px;
+  padding: 30px;
+  margin: 5px;
+  margin-top: 300px;
+  background-color: red;
+  background-image: linear-gradient(to right, red, rgba(45, 6, 218, 0.658));
+  position: relative;
+  animation-name: animationsNoticieImportant;
+  animation-duration: 16s;
+  color: aliceblue;
+  font-size: 16px;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+  display: inline;
+}
+
+.animations-links {
+ text-decoration: none;
+ color: white;
+}
+.animations-links:hover {
+  text-decoration: none;
+  color: rgba(45, 6, 218, 0.658);
+  font-weight: bold;
+}
+
+@keyframes animationsNoticieImportant {
+  0% {
+    background-color: rgba(45, 6, 218, 0.658);
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: rgba(45, 6, 218, 0.658);
+    left: 100%;
+    top: 0px;
+  }
+}

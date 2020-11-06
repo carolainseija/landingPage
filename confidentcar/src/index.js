@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Welcom from './pages/welcome/welcom';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Welcom/>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

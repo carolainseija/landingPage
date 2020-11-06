@@ -1,0 +1,53 @@
+.container-fluid {
+  position: relative;
+  width: auto;
+  background-color: darkblue;
+}
+.App-header {
+  background-color: darkblue;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logoBlanco {
+  background-image: url(../../images/logoBlanco.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  position: absolute;
+  margin-top: 0px;
+}
+.containerNavbar {
+  position: absolute;
+  margin-top: 25px;
+}
+.nav-link {
+  border-bottom-style: solid;
+  border-color: rgb(197, 16, 16);
+}
+.nav-link:hover {
+  color: white;
+  opacity: 0, 5;
+  border-bottom-style: solid;
+}
+
+.navbar-expand-lg {
+  width: 800px;
+}
+.navbar-mobile {
+  width: 300px;
+  height: 0px;
+  background-color: aqua;
+}
+.containerNavbar-mobile {
+  height: 40px;
+  margin-top: 0px;
+  background-color: antiquewhite;
+}
+.nav-link-mobile {
+  display: block;
+}
