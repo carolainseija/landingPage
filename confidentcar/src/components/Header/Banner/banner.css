@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../../../images/banner.jpg);
+  background-image: url(../../../images/imagenDeAuto.jpeg);
   background-repeat: no-repeat;
   height: 585px;
   background-size: cover;
@@ -23,10 +23,10 @@
   }
 }
 h1 {
-  color: rgb(255, 38, 0);
+  color: yellow;
   font-family: fantasy;
   font-size: 80px !important;
-  text-shadow: 2px 5px rgb(37, 37, 172);
+  text-shadow: 2px 5px #C46210;
  position: absolute;
  margin-left: 170px;
 }
@@ -48,8 +48,8 @@ h1 {
   padding: 30px;
   margin: 5px;
   margin-top: 300px;
-  background-color: red;
-  background-image: linear-gradient(to right, red, rgba(45, 6, 218, 0.658));
+  background-color: yellow;
+  background-image: linear-gradient(to right, ye, #C46210);
   position: relative;
   animation-name: animationsNoticieImportant;
   animation-duration: 16s;
@@ -67,18 +67,23 @@ h1 {
 }
 .animations-links:hover {
   text-decoration: none;
-  color: rgba(45, 6, 218, 0.658);
+  color: yellow;
   font-weight: bold;
 }
 
 @keyframes animationsNoticieImportant {
   0% {
-    background-color: rgba(45, 6, 218, 0.658);
+    background-color: rgba(255, 255, 0, 0.796);
+    
     left: 0px;
     top: 0px;
   }
+  50% {
+    background-color: #e47114;
+    
+  }
   100% {
-    background-color: rgba(45, 6, 218, 0.658);
+    background-color: #C46210;
     left: 100%;
     top: 0px;
   }

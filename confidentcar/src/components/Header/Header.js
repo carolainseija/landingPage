@@ -5,14 +5,14 @@ import "../Header/header.css";
 function Header() {
   return (
     <div className="container-fluid">
-      <header className="Row App-header">
-        <div className="col-lg-12 d-flex justify-content-center">
+      <header className="Row App-header d-flex">
+        <div className="col-lg-12 d-flex justify-content-center justify-content-between">
             {/* container logo */}
-          <div className="d-xs-none d-sm-none d-md-none d-lg-flex col-lg-5 logoBlanco text-center">
+          <div className="d-xs-none d-sm-none d-md-none d-lg-flex col-lg-6 logoBlanco text-center">
            
           </div>
            {/* container navbar responsive LG */}
-          <div class="d-xs-none d-md-none d-lg-flex col-lg-7 containerNavbar" id="navbarNav">
+          <div class="d-xs-none d-md-none d-lg-flex col-lg-6 containerNavbar" id="navbarNav">
             <nav class="navbar navbar-expand-lg d-xs-none d-md-none d-lg-flex justify-content-end">
               <ul class="navbar-nav">
                 <li class="nav-item active">

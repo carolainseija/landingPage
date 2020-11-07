@@ -5,12 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Welcom from './pages/welcome/welcom';
 import "bootstrap/dist/css/bootstrap.min.css";
+//import Server from './pages/servers/server';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Welcom/>
+   <Welcom/>
    
   </React.StrictMode>,
   document.getElementById('root')

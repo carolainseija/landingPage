@@ -1,10 +1,10 @@
 .container-fluid {
   position: relative;
   width: auto;
-  background-color: darkblue;
+  background-color: #C46210;
 }
 .App-header {
-  background-color: darkblue;
+  background-color: #C46210;
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -14,23 +14,29 @@
   color: white;
 }
 .logoBlanco {
-  background-image: url(../../images/logoBlanco.png);
+  background-image: url(../../images/logoAmarillo.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
   position: absolute;
   margin-top: 0px;
+  margin-left: 100px;
+  
 }
 .containerNavbar {
   position: absolute;
   margin-top: 25px;
+  
+  margin-left: 470px;
+  
 }
 .nav-link {
+  color: white;
   border-bottom-style: solid;
-  border-color: rgb(197, 16, 16);
+  border-color:yellow;
 }
 .nav-link:hover {
-  color: white;
+  color: yellow;
   opacity: 0, 5;
   border-bottom-style: solid;
 }
@@ -41,7 +47,7 @@
 .navbar-mobile {
   width: 300px;
   height: 0px;
-  background-color: aqua;
+  background-color: yellow;
 }
 .containerNavbar-mobile {
   height: 40px;
