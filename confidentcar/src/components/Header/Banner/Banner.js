@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="container-fluid banner">
       <div className="containerTxtWelcom col-12">
-        <h1 className="">BIENVENIDO A CONFIDENT-CAR</h1>
+        <h1 className="titleWelcom">BIENVENIDO A CONFIDENT-CAR</h1>
       </div>
       <div className="containerAnimations col-8">
         <div className="animation"> 

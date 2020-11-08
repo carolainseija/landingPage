@@ -4,7 +4,7 @@ import "../Header/header.css";
 
 function Header() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid containerHeader">
       <header className="Row App-header d-flex">
         <div className="col-lg-12 d-flex justify-content-center justify-content-between">
             {/* container logo */}

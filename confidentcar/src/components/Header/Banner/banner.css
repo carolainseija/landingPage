@@ -1,7 +1,7 @@
 .banner {
   background-image: url(../../../images/imagenDeAuto.jpeg);
   background-repeat: no-repeat;
-  height: 585px;
+  height: 580px;
   background-size: cover;
 }
 
@@ -22,7 +22,7 @@
     background-color: rgba(45, 6, 218, 0.658);
   }
 }
-h1 {
+.titleWelcom {
   color: yellow;
   font-family: fantasy;
   font-size: 80px !important;
@@ -73,8 +73,7 @@ h1 {
 
 @keyframes animationsNoticieImportant {
   0% {
-    background-color: rgba(255, 255, 0, 0.796);
-    
+    background-color: rgba(255, 255, 0, 0.796);    
     left: 0px;
     top: 0px;
   }

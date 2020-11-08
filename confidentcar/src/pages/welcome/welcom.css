@@ -1,13 +1,13 @@
 .container-fluid-main {
-   margin: 0px;
-   background-color:rgb(46, 10, 146);
-   width: 1500px;
+  margin: 0px;
+  background-color: rgb(46, 10, 146);
+  width: 1500px;
 }
 .containerHeader {
-    position: relative;
+  position: relative;
 }
 .containerBanner {
-   position: absolute;
-    margin-top: 500px;
-    margin-left: 400px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 400px;
 }
